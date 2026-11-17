@@ -1,0 +1,3 @@
+Algorithm,Trials,Total_Reward,Average_Reward,Cumulative_Regret,Average_Regret,Optimal_Arm_Selection_Rate
+Epsilon-Greedy,20000,73907.22699041635,3.6953613495208346,6181.0,0.30905,0.6913
+Thompson Sampling,20000,79766.82714149833,3.9883413570749515,18.0,0.0009,0.9996
