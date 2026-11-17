@@ -90,31 +90,6 @@ The run recreates the CSV files and all six plots. To run the built-in tests:
 python -m unittest discover -s tests -v
 ```
 
-## Files
-
-```text
-Bandit_AB_Testing_Project/
-├── Bandit.py                           # Full assignment solution (run this)
-├── README.md                           # Explanation and instructions
-├── requirements.txt                    # Python dependencies
-├── Reference_Bayesian_AB_Testing.ipynb # Instructor/reference notebook (unchanged)
-├── .gitignore
-├── tests/
-│   └── test_bandit.py                  # 5 automated checks
-├── results/
-│   ├── rewards.csv                     # 40,000 trial-level rows
-│   └── summary.csv                     # 2 algorithm summary rows
-└── plots/
-    ├── epsilon_greedy_learning_linear.png
-    ├── epsilon_greedy_learning_log.png
-    ├── thompson_sampling_learning_linear.png
-    ├── thompson_sampling_learning_log.png
-    ├── comparison_cumulative_rewards.png
-    └── comparison_cumulative_regrets.png
-```
-
-The three mandatory columns of `rewards.csv` are `Bandit`, `Reward`, `Algorithm`. Additional useful columns are `Trial`, `Regret`, `Cumulative_Reward`, and `Cumulative_Regret`. `Bandit` is 1-indexed, so 4 means the fourth advertisement.
-
 ## Results: one reproducible run
 
 | Metric | Epsilon-Greedy | Thompson Sampling |
