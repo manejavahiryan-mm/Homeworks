@@ -152,16 +152,3 @@ This submission already adds reproducible per-policy generators, stable posterio
 4. Add more settings with close arm means, different Gaussian noise levels, and nonstationary means to test robustness.
 5. Monitor how often each algorithm picks the optimal arm, its cumulative regret, and whether confidence intervals overlap across seeds.
 6. For production ad selection, consider real conversion/revenue distributions, delayed feedback, business constraints, and policy evaluation before deployment.
-
-## GitHub submission (no terminal necessary)
-
-1. Sign in to [github.com](https://github.com) and click the **+** menu -> **New repository**.
-2. Name it `bandit-ab-testing-homework-2`, choose **Public** if your course requires a publicly accessible link, and click **Create repository**. **Do not** check "Add a README" since this folder already has one.
-3. On the empty repository page click **uploading an existing file** or **Add file -> Upload files**.
-4. **Unzip** the downloaded project archive first. Open the extracted `Bandit_AB_Testing_Project` folder and drag its **contents** into the upload area. Verify that `Bandit.py`, `README.md`, `requirements.txt`, `results/`, `plots/`, and `tests/` appear. (GitHub's browser upload may not preserve hidden files like `.gitignore`; that is optional.)
-5. Scroll down, enter a commit message such as `Complete Homework 2 bandit comparison`, then click **Commit changes**.
-6. Make sure you can open `Bandit.py` and see the displayed plots on the repository README.
-7. Copy the repository URL from your browser address bar, such as `https://github.com/YOUR_USERNAME/bandit-ab-testing-homework-2`.
-8. Submit **only that repository link** to Moodle, per assignment instructions.
-
-**Note:** If GitHub limits your browser upload to 100 files, this project contains fewer than that. Do not upload the ZIP as the only file: the source files must be visible in the repository.
